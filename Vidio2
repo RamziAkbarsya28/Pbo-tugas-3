@@ -1,0 +1,10 @@
+public class PBO_PERTEMUAN3_LATIHAN_WHILE {
+ public static void main(String[] args) {
+        int i = 10;
+        while(i>0){
+            System.out.println("Anak ayam turun " + i + " Pergi satu tinggal " + (i-1));
+            i--;
+        }
+        System.out.println("tinggal induknya ");
+    }
+}
