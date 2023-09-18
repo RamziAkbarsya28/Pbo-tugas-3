@@ -1,0 +1,11 @@
+public class PBO_PERTEMUAN3_DOWHILE {
+ public static void main(String[] args) {
+        int i = 10;
+        do{
+            System.out.println("Anak ayam turun " + i + " Pergi satu tinggal " + (i-1));
+            i--;
+        }
+        while(i > 0);
+        System.out.println("tinggal induknya ");
+    }
+}
